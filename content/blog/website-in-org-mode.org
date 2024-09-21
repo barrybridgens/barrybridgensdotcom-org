@@ -4,4 +4,4 @@ The previous version of barrybridgens.com was authored using [[https://gohugo.io
 
 I knowledge and code from the above sources and had a simple web-site / blog up and running fairly quickly. I then ported my content, including the three most recent blog posts, from the Hugo version of the site. I may go back and port the other blog posts later as they will remain on Github.
 
-The initial version of the org-mode "export" script was 77 lines of elisp) including whitespace. This is much easier to understand and will be much easier to maintain than the Hugo version.
+The initial version of the org-mode "export" script was 77 lines of elisp (including whitespace). This is much easier to understand and will be much easier to maintain than the Hugo version.
