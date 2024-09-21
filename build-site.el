@@ -32,6 +32,7 @@
 	 :section-numbers nil
 	 :time-stamp-file nil
          :publishing-directory "./public"
+	 :html-postamble "<hr/><footer>Author: Barry Bridgens<br>Navigate: <a href=\"/index.html\">Home</a><br><hr></footer>"
          :publishing-function org-html-publish-to-html)
 
         ("static"
@@ -55,6 +56,7 @@
 	 :section-numbers nil
 	 :time-stamp-file nil
 	 :publishing-directory "./public/blog"
+	 :html-postamble "<hr/><footer>Author: Barry Bridgens<br>Navigate: <a href=\"/index.html\">Home</a><br><hr></footer>"
 	 :publishing-function org-html-publish-to-html
 
 	 :auto-sitemap t
