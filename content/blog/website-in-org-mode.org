@@ -1,0 +1,7 @@
+* Web-site in org-mode
+
+The previous version of barrybridgens.com was authored using [[https://gohugo.io/][Hugo]] but I was never really happy with it. There were too many "moving parts" that were not east to find / understand. I decided to re-write the web-site and was originally going to just use HTML and CCS but then decided to re-visit creating web-sites from [[https://orgmode.org/][org-mode]]. I had tried generating web-sites from org-mode before but didn't really "click". This time I found really good write-ups from [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters]] and [[https://taingram.org/blog/org-mode-blog.html][Thomas Ingram]] that got me started.
+
+I knowledge and code from the above sources and had a simple web-site / blog up and running fairly quickly. I then ported my content, including the three most recent blog posts, from the Hugo version of the site. I may go back and port the other blog posts later as they will remain on Github.
+
+The initial version of the org-mode "export" script was 77 lines of elisp) including whitespace. This is much easier to understand and will be much easier to maintain than the Hugo version.
