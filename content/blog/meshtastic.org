@@ -1,0 +1,30 @@
+#+TITLE: Meshtastic
+#+DATE: <2024-10-13 Sun> 
+* Meshtastic
+
+I have been playing with [[https://meshtastic.org/][Mestastic]]. This is, to quote their website, "An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices". Meshtastic uses [[https://en.wikipedia.org/wiki/LoRa][LoRa]] (long range) radio to connect the nodes in the mesh.
+
+I have a couple of nodes based on the [[https://heltec.org/project/wifi-lora-32-v3/][Heltec v3]] board. One is a "base station" node which is currently on my bedroom windowsill but which maybe moved into the loft. The other is a "mobile" node that I can take with me when I travel.
+
+[[./images/meshtastic-base-station.png]]
+[[./images/meshtastic-mobile-front.png]]
+
+I am connecting to the modes with the Meshtastic App on my iPhone. The connection can be via Bluetooth or WiFi. The app can show data about the node that it is connected to including messages received, nodes detected and and a node map. It can also allow messages to be transmitted onto the mesh.
+
+Here are some messages that I have have received.
+
+[[./images/meshtastic-messages.png]]
+
+Here are some of the nodes that I have connected to from my base-station node.
+
+[[./images/meshtastic-nodes-1.png]]
+[[./images/meshtastic-nodes-2.png]]
+
+Here are the node maps (zoomed-out and zoomed-in) from my base-station node.
+
+[[./images/meshtastic-map-1.png]]
+[[./images/meshtastic-map-2.png]]
+
+The maps show how far away Mestastic nodes can be received from but this very much depends on the radio propagation conditions. Also being able to receive a beacon message from a nodes does not always mean that messages could be successfully exchanged between the nodes.
+
+Meshtastic is not yet a fully practical off-grid messaging system but it is good fun and i will continue to play wit it.

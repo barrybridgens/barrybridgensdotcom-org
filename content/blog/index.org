@@ -1,6 +1,7 @@
 #+TITLE: Blog Posts
 
-- [[file:website-in-org-mode.org][website-in-org-mode]]
+- [[file:meshtastic.org][Meshtastic]]
+- [[file:website-in-org-mode.org][Web-site in org-mode]]
+- [[file:obsidian.org][Obsidian]]
 - [[file:org-roam-ui.org][org-roam-ui]]
 - [[file:org-roam.org][org-roam]]
-- [[file:obsidian.org][obsidian]]

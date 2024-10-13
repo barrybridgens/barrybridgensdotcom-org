@@ -1,3 +1,5 @@
+#+TITLE: org-roam
+#+DATE: <2024-09-19 Thu>
 * org-roam
 
 As much as I liked to use Obsidian for note taking I did have problems with it, the main one being tables. I tend to use a lot of tables in my notes

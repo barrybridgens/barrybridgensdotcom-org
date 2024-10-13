@@ -1,3 +1,5 @@
+#+TITLE: org-roam-ui
+#+DATE: <2024-09-20 Fri>
 * org-roam-ui
 
 In my last post I talked about using [[https://www.orgroam.com/][org-roam]] as my note-taking solution of choice. This is still working well for me but I found myself

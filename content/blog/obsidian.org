@@ -1,3 +1,5 @@
+#+TITLE: Obsidian
+#+DATE: <2024-09-21 Sat>
 * Obsidian
 
 I have started to use [[https://obsidian.md/][Obsidian]] as my notetaking system.
