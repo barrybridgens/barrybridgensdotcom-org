@@ -6,8 +6,8 @@ I have been playing with [[https://meshtastic.org/][Mestastic]]. This is, to quo
 
 I have a couple of nodes based on the [[https://heltec.org/project/wifi-lora-32-v3/][Heltec v3]] board. One is a "base station" node which is currently on my bedroom windowsill but which maybe moved into the loft. The other is a "mobile" node that I can take with me when I travel.
 
-[[./images/meshtastic-base-station.png]]
-[[./images/meshtastic-mobile-front.png]]
+[[./images/meshtastic-base-station.jpg]]
+[[./images/meshtastic-mobile-front.jpg]]
 
 I am connecting to the modes with the Meshtastic App on my iPhone. The connection can be via Bluetooth or WiFi. The app can show data about the node that it is connected to including messages received, nodes detected and and a node map. It can also allow messages to be transmitted onto the mesh.
 
