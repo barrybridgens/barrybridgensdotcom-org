@@ -1,6 +1,5 @@
 #+TITLE: Web-site in org-mode
 #+DATE: <2024-09-22 Sun>
-* Web-site in org-mode
 
 The previous version of barrybridgens.com was authored using [[https://gohugo.io/][Hugo]] but I was never really happy with it. There were too many "moving parts" that were not east to find / understand. I decided to re-write the web-site and was originally going to just use HTML and CCS but then decided to re-visit creating web-sites from [[https://orgmode.org/][org-mode]]. I had tried generating web-sites from org-mode before but didn't really "click". This time I found really good write-ups from [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters]] and [[https://taingram.org/blog/org-mode-blog.html][Thomas Ingram]] that got me started.
 

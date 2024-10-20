@@ -1,6 +1,5 @@
 #+TITLE: org-roam-ui
 #+DATE: <2024-09-20 Fri>
-* org-roam-ui
 
 In my last post I talked about using [[https://www.orgroam.com/][org-roam]] as my note-taking solution of choice. This is still working well for me but I found myself
 missing the "fully featured" graph functionality available in Obsidian and similar systems. I looked around for a solution and found [[https://github.com/org-roam/org-roam-ui][org-roam-ui]]

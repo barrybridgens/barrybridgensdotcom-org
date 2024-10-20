@@ -1,6 +1,5 @@
 #+TITLE: org-roam
 #+DATE: <2024-09-19 Thu>
-* org-roam
 
 As much as I liked to use Obsidian for note taking I did have problems with it, the main one being tables. I tend to use a lot of tables in my notes
 and the table handling in Markdown is not that flexible. I much prefer the table handling in org-mode under emacs and so have returned

@@ -1,6 +1,5 @@
 #+TITLE: Meshtastic
 #+DATE: <2024-10-13 Sun> 
-* Meshtastic
 
 I have been playing with [[https://meshtastic.org/][Mestastic]]. This is, to quote their website, "An open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices". Meshtastic uses [[https://en.wikipedia.org/wiki/LoRa][LoRa]] (long range) radio to connect the nodes in the mesh.
 

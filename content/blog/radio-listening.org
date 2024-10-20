@@ -1,6 +1,5 @@
 #+TITLE: Radio Listening
 #+DATE: <2024-10-20 Sun> 
-* Radio Listening
 
 I have had an interest in radio for many years. As I do not hold an [[https://en.wikipedia.org/wiki/Amateur_radio][Amateur Radio]] license, this is mainly in the form of Radio Listening.
 
