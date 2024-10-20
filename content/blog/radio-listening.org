@@ -1,0 +1,53 @@
+#+TITLE: Radio Listening
+#+DATE: <2024-10-20 Sun> 
+* Radio Listening
+
+I have had an interest in radio for many years. As I do not hold an [[https://en.wikipedia.org/wiki/Amateur_radio][Amateur Radio]] license, this is mainly in the form of Radio Listening.
+
+I have a number of radios that allow me to listen to various parts of the radio spectrum.
+
+** Dedicated Radios
+
+*** Icom IC-R5
+
+The [[https://icomuk.co.uk/ic-r5-compact-wideband-handheld-receiver/4085/1183/104/][Icom IC-R5]] is a "Compact Wideband Handheld Receiver" also known as a "scanner". The radio can scan through many pre-programmed frequencies looking for activity. I have used this listening to the Air Band (aircraft / airfield communications), Marine Band (ship to ship and ship to shore communications), Amateur VHF / UHF bands and many others.
+
+[[./images/radio-listening-icom.jpg]]
+
+*** Sihuadon D-808
+
+The [[https://xhdata.com.cn/products/d-808-radio?variant=43660713558334][Sihuadon D-808]] is a "FM / SW / MW / LW / SSB / AIR / RDS Multi Band Portable Digital Radio". I use this for general listening and particularly [[https://en.wikipedia.org/wiki/Shortwave_listening][Shortwave Listening]]
+
+[[./images/radio-listening-sihuadon.jpg]]
+
+*** Quansheng UV-K5 8
+
+The [[https://www.amazon.co.uk/Quansheng-Dual-Band-Portable-Two-way-Rechargeable/dp/B0CQV938FY][Quansheng UV-K5 8]] is designed to be an Amateur Radio VHF/UHF transceiver. However, with some programming, it can also be used a wide-ish band receiver. The firmware that I used for this is [[https://github.com/egzumer/uv-k5-firmware-custom/releases][Egzumer]]. As a non-license holder I have to be sure not to transmit and so have programmed all of the memories to be receive only. To easily program the memory channels I used the [[https://chirpmyradio.com/projects/chirp/wiki/Home][CHIRP]] software.
+
+[[./images/radio-listening-quansheng.jpg]]
+
+** Software Defined Radio (SDR)
+
+Wikipedia defines software-defined radio as "a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system. While the concept of SDR is not new, the rapidly evolving capabilities of digital electronics render practical many processes which were once only theoretically possible".
+
+I have two SDR setups; one that can only be used with a computer and one that can operate stand-alone
+
+*** RTL-SDR
+
+The [[https://www.rtl-sdr.com/about-rtl-sdr/][RTL-SDR]] is "is a very cheap (~$30) USB dongle that can be used as a computer based radio scanner for receiving live radio signals in your area". The origin of DTL-SDR was from mass produced DVB-T TV tuner dongles that were based on the RTL2832U chipset. With the combined efforts of Antti Palosaari, Eric Fry and Osmocom (in particular Steve Markgraf) it was found that the raw I/Q data on the RTL2832U chipset could be accessed directly, which allowed the DVB-T TV tuner to be converted into a wideband software defined radio via a custom software driver developed by Steve Markgraf".
+
+The RTL-SDR require software running on a computer in order to operate. There are  software applications available for various operating systems such as SDR#, SDR++, GNU Radio and many, many others. For a comprehensive list see [[https://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/][The BIG List of RTL-SDR Supported Software]].
+
+[[./images/radio-listening-rtl-sdr.jpg]]
+
+*** HackRF
+
+The [[https://greatscottgadgets.com/hackrf/][HackRF]] is an SDR board originally created by [[https://greatscottgadgets.com/][Great Scott Gadgets]]. It is available in many form factors including the [[https://greatscottgadgets.com/hackrf/one/][HackRF One]] from Great Scott Gadgets which is intended to work connected to a computer in the same way as the RTL-SDR.
+
+The other main form factor for HackRF is the "Portapack". This combines the HackRF with a custom PCB containing a micro-controller, display, switches, etc. that allow the HackRF to be used in a "stand-alone" way. The board runs custom firmware, such as [[https://github.com/portapack-mayhem][Mayhem]], to enable multiple receive and transmit modes over a wide range of frequencies.
+
+[[./images/radion-listening-hackrf.jpg]]
+
+** Conclusion
+
+Radio Listening is a great hobby with many facets. I only wish that I had more time available to dedicate to learn more about it and actually listen to stuff!
