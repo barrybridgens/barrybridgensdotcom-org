@@ -1,0 +1,12 @@
+#+TITLE: Amateur Radio
+#+DATE: <2024-11-02 Sat>
+
+I have decided to study for the Amateur Radio Foundation License.
+
+I did do some training in the past with [[https://www.essexham.co.uk/train/][Ham Train]] but didn't take the examination for various personal reasons.
+
+I will not take any more formal training, at least not yet, but will study from the official [[https://rsgb.org/][RSGB]] Foundation License Manual.
+
+[[./images/amateur-radio-book.jpg]]
+
+I do not know how long this will take as I am sure that I will get distracted at times but I to aim to get my license this time around.
