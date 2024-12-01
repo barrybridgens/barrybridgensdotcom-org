@@ -1,5 +1,6 @@
 #+TITLE: Blog Posts
 
+- [[file:mini-vmac-nix.org][Mini vMac NixOS Build]]
 - [[file:ttartisan.org][TTArtisan 25mm f2 Lens]]
 - [[file:amateur-radio.org][Amateur Radio]]
 - [[file:radio-listening.org][Radio Listening]]

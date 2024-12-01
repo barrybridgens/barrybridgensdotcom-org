@@ -1,0 +1,33 @@
+#+TITLE: Mini vMac NixOS Build
+#+DATE: <2024-12-01 Sun>
+
+I am interested in vintage computers but owning 30+ year old hardware and keeping it running is very expensive. For this reason there are many emulators for this old hardware available and these are great for getting a feeling of how these old computers worked.
+
+One ecosystem that I am interested in is the the 68k Apple Mac. I wanted to try out the [[https://www.gryphel.com/c/minivmac/][Mini vMac]] emulator. However, as most of my computers run NixOS, this does not run "out of the box" as it is expecting the [[https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard][Filesystem Hierarchy Standard (FHS)]] which NixOS does not provide.
+
+I checked the [[https://search.nixos.org/packages][NixOS Package List]] but Mini vMac was not there. If I wanted to run Mini vMac on NixOS I was going to have to build it myself.
+
+I read the NixOS documentation and various other relevant information sources across the Internet and, after some trial and error, pulled together a working build of Mini vMac for NixOS.
+
+A NixOS build works by downloading the source code from the Internet and then going through various "phases" such as Configure, Build, and Install to get the package built. All of this is controlled by a "Derivation" implemented in the Nix language in a .nix file.
+
+The derivation that I implemented is show below.
+
+[[./images/mini-vmac-nix-vmac-nix.png]]
+
+This is "supported" by a default.nix file as shown below.
+
+[[./images/mini-vmac-nix-default-nix.png]]
+
+The build is run using the command *nix-build -A mini-vmac.nix*
+
+Mini vMac can then be executed.
+
+[[./images/mini-vmax-nix-macos.png]]
+
+[[./images/mini-vmac-nix-game.png]]
+
+
+The above files are available on [[https://github.com/barrybridgens/nix-mini-vmac][my GitHub]]
+
+When I have time I will probably submit this officially to the project but I think that there are some conventions that I will have to follow before it will be acceptable and therefore more work to be done.
