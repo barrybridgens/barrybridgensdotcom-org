@@ -1,0 +1,20 @@
+#+TITLE: Pi Pico Mac 128k Emulator
+#+DATE: <2024-12-15 Sun>
+
+I saw on the Internet another take on emulating old Macintosh computers. Not on a PC this time but on a micro-controller, a Raspberry Pi RP2040 to be exact.
+
+[[https://axio.ms/][Matt Evans]] has a [[https://github.com/evansm7/pico-mac][project]] that allows a Raspberry Pi Pico and a couple of resistors to emulate a Mac 129k and drive a VGA output.
+
+I purchased a ready-made circuit board from [[https://www.ebay.co.uk/itm/166964443891][eBay UK]] and added a Pi Pico.
+
+[[./images/pi-pico-mac-128k-board.jpg]]
+
+Matt's GitHub has instructions for building the emulator but I took a shortcut and downloaded a UF2 file from [[https://picomac.bluescsi.com/][here]].
+
+I didn't have a suitable monitor to hand and so plugged the board into a TV via a VGA to HDMI converter. The video quality was not great but it worked!
+
+[[./images/pi-pico-mac-128k-screen.jpg]]
+
+A USB mouse and keyboard can be connected by an OTG cable or hub to control the emulated Mac.
+
+I do not think that I will actually use this emulator very much as Mini vMac on a laptop is much more functional but this is a very cool project and I am really happy to have experienced it.
