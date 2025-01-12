@@ -1,0 +1,26 @@
+#+TITLE: Haiku
+#+DATE: <2024-12-26 Thu>
+
+To (sort of) continue the vintage computing vibe, I have been playing with [[https://www.haiku-os.org/][Haiku]].
+
+To quote the web-site, "Haiku is an open-source operating system that specifically targets personal computing. Inspired by the [[https://en.wikipedia.org/wiki/BeOS][BeOS]], Haiku is fast, simple to use, easy to learn and yet very powerful."
+
+[[./images/haiku-desktop.png]]
+
+I am currently running Haiku in a virtual machine (using [[https://github.com/quickemu-project/quickemu][Quickemu]]) on my NixOS Linux laptop.
+
+The standard Haiku distribution comes with a reasonable number of applications / demos and a lot of documentation.
+
+[[./images/haiku-apps-docs.png]]
+
+To allow software development the system comes with a C compiler and Python already installed. Bellow is a quick test of the C compiler.
+
+[[./images/haiku-hello-sine.png]]
+
+The standard distribution of Haiku does cover all of the bases to be a "daily driver" but does come with a usable web browser called Webpositive and has a "software store" called HaikuDepot where more software can be installed.
+
+[[./images/haiku-broswer-and-depot.png]]
+
+Haiku makes a nice change from standard Linux distributions while still having some familiar touches, for example it uses bash and gcc. I will continue to use it.
+
+I would like to also try it on real hardware at some point, watch this space!

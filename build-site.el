@@ -23,6 +23,14 @@
       org-html-head "<link rel=\"stylesheet\" href=\"/style.css\"/>")
 
 
+(defun my/org-publish-org-sitemap-format (entry style project)
+  "Custom sitemap entry formatting: add date"
+  (format "[[file:%s][%s]] (%s)\n"
+          entry
+	  (org-publish-find-title entry project)
+	  (format-time-string "%Y-%m-%d"
+                              (org-publish-find-date entry project))))
+
 (setq org-publish-project-alist
       `(("pages"
          :base-directory "./content/"
@@ -62,6 +70,7 @@
 	 :auto-sitemap t
 	 :sitemap-title "Blog Posts"
 	 :sitemap-filename "index.org"
+	 :sitemap-format-entry my/org-publish-org-sitemap-format
 	 :sitemap-sort-files anti-chronologically)
 
 	("blog-images"

@@ -1,0 +1,18 @@
+#+TITLE: Haiku on Real Hardware
+#+DATE: <2025-01-12 Sun>
+
+After playing with Haiku in a virtual machine I wanted to try in on real hardware. I tried with a couple of my very old laptops but it would either not run at all or did not recognise the internal disk and so could not be installed.
+
+I then decided to use one of my favorite old laptops, the Thinkpad x220.
+
+[[./images/haiku-x220.jpg]]
+
+Thinkpads are one of the best supported laptops for alternative operating systems and the X220 did not let me down. Initially I had some issues getting it to boot from the internal disk but that was because I missed the step in the installation of installing the Haiku bootloader. Once this was corrected the system booted.
+
+[[./images/haiku-x220-boot.jpg]]
+
+Haiku runs really well on the X220. WiFi works, the battery life appears to be OK, although I have not fully tested this, and the system is very snappy.
+
+[[./images/haiku-x220-desktop.jpg]]
+
+As others have similarly commented, I could see myself using Haiku on the X220 if I wanted to do some writing or coding without the distractions inherent in my normal Linux setups.
