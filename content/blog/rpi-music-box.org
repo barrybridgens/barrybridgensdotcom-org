@@ -1,0 +1,39 @@
+#+TITLE: Raspberry Pi Music Player
+#+DATE: <2025-01-26 Sun>
+
+I wanted to create a music playing / streaming "appliance" to supplement and eventually replace my Sonos system. The Sonos system works well but
+
+- The system only works with their proprietary app
+- The speakers will not last forever
+- There are no suitable replacements currently available
+- Sonos is expensive
+
+After researching replacements, including ready-made commercial offerings, I decided that the best way forward for me was to build something based on a Raspberry Pi. I already had a "spare" Raspberry Pi 5 and purchased a Raspberry Pi DAC Pro board (https://thepihut.com/products/iqaudio-dac-pro) and a case (https://thepihut.com/products/kksb-case-for-raspberry-pi-5-and-raspberry-pi-dac-and-dac-pro-sound-cards) to go with it.
+
+[[./images/rpi-music-box-1.jpg]]
+
+[[./images/rpi-music-box-2.jpg]]
+
+
+Once I had decided on the hardware I started to research the best software to run on it. Looking around the Internet, and particularly YouTube, there appeared to be two very popular options
+
+    - volumio (https://volumio.com/)
+    - MoOde Audio (https://moodeaudio.org/)
+
+ After comparing the two I decided to go with MoOde, at least initially. MoOde can play locally stored audio but I will mainly use it to play files that live on my NAS.
+
+ MoOde can drive a touch screen but, again at least initially, I will control it using its web interface from another computer.
+
+ [[./images/rpi-music-box-library.png]]
+
+ [[./images/rpi-music-box-playing.png]]
+
+ [[./images/rpi-music-box-queue.png]]
+
+
+As I do not yet have by amplifier and speakers setup, due to moving my office into a different room, I did initial testing on the setup by sending the audio to a TV via the HDMI output.
+
+[[./images/rpi-music-box-test.jpg]]
+
+
+I am looking forward to fully putting this system through it paces and will almost certainly change / improve it at some point in the future.

@@ -1,5 +1,6 @@
 #+TITLE: Blog Posts
 
+- [[file:rpi-music-box.org][Raspberry Pi Music Player]] (2025-01-26)
 - [[file:haiku-on-real-hardware.org][Haiku on Real Hardware]] (2025-01-12)
 - [[file:haiku.org][Haiku]] (2024-12-26)
 - [[file:pi-pico-mac-128k.org][Pi Pico Mac 128k Emulator]] (2024-12-15)
