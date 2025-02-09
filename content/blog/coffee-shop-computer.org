@@ -1,0 +1,22 @@
+#+TITLE: Coffee Shop Computer
+#+DATE: <2025-02-09 Sun>
+
+Although I have a number of computers, I didn't have something really small that I could throw in my backpack and take to a coffee shop for example. I did some research and concluded that a Microsoft Surface Go would be a good mix of affordability, size and Linux compatibility.
+
+After looking around for some time I found a Surface Go 2 in CEX for a reasonable price. I later found and purchased the keyboard and pressure sensitive pen for the machine. This is now a very practical "on the go" computer system.
+
+[[./images/coffee-shop-computer-front.jpg]]
+
+I originally tried to install Ubuntu, as this was what seams to be the most popular option, but it was not very stable for me. I then tried NixOs, which is what I use on most of my other computers, and this worked really well.
+
+[[./images/coffee-shop-computer-neofetch-screenshot.png]]
+
+Sharp eyed people may notice that I named the machine "goto", this is a bit of an old school programmer inside joke based on the model name of "Go 2". Of course the Surface works as a table as well. The on-screen keyboard is a little small but still very usable.
+
+[[./images/coffee-shop-computer-tablet.jpg]]
+
+In order to protect the machine when in my backpack I found an envelope type case that fits it, with the keyboard attached and folded, very well.
+
+[[./images/coffee-shop-computer-case.jpg]]
+
+This machine goes with me whenever I think that I may need a more a powerful / comfortable computing experience than my iPhone Pro Max can provide.
