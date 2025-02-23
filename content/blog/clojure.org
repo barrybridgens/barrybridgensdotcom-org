@@ -1,0 +1,35 @@
+#+TITLE: Clojure
+#+DATE: <2025-02-23 Sun>
+
+I like to use different programming languages and particularly less mainstream languages. One of my favorites is [[https://clojure.org/][Clojure]].
+
+I will let the creator of Clojure, Rich Hickey, describe the language (text taken from the Clojure web-site linked above).
+
+---
+
+Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language, yet remains completely dynamic – every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.
+
+Clojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system. Clojure is predominantly a functional programming language, and features a rich set of immutable, persistent data structures. When mutable state is needed, Clojure offers a software transactional memory system and reactive Agent system that ensure clean, correct, multithreaded designs.
+
+I hope you find Clojure's combination of facilities elegant, powerful, practical and fun to use.
+
+Rich Hickey
+author of Clojure
+
+---
+
+I have only used some of the features of Clojure and the examples below primarily showcase the functional programming aspects of the language. Both of the examples are solutions to problems from the [[https://projecteuler.net/][Project Euler]] web-site. These problems are well suited to functional solutions.
+
+[[./images/clojure-euler-10.png]]
+
+The *primes* code from the Clojure Google Group provides an "infinite" lazy sequence of prime numbers. Lazy in this context means that the next value in the sequence is only calculated when it it read.
+
+Prime numbers are read from the sequence until a value greater than the stated 2 million limit is seen. These values are added together by reducing them using the + operation.
+
+[[./images/clojure-euler-21.png]]
+
+The second example also uses take-while and reduce but also shows the use of filtering with a custom predicate to select the amicable numbers from the sequence of numbers less than 10000 created by the range function.
+
+The lazy and functional features of Clojure make for very elegant solutions to these types of mathematical problems.
+
+I have only just scratched the surface of Clojure in these examples. I will continue the learn and use Clojure for other applications

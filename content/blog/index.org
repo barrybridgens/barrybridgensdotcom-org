@@ -1,5 +1,6 @@
 #+TITLE: Blog Posts
 
+- [[file:clojure.org][Clojure]] (2025-02-23)
 - [[file:coffee-shop-computer.org][Coffee Shop Computer]] (2025-02-09)
 - [[file:rpi-music-box.org][Raspberry Pi Music Player]] (2025-01-26)
 - [[file:haiku-on-real-hardware.org][Haiku on Real Hardware]] (2025-01-12)
