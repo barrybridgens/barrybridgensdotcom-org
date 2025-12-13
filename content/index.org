@@ -11,6 +11,10 @@ This site will initially be used for general posts and provide links to my other
 Over time all of my content will be migrated to barrybridgens.com
 
 
+* Photography
+#+INCLUDE: photos/index.org :lines "3-8"
+[[file:photos/index.org][See more...]]
+
 * Blog Posts
 #+INCLUDE: blog/index.org :lines "3-8"
 [[file:blog/index.org][See more...]]
@@ -25,4 +29,4 @@ Over time all of my content will be migrated to barrybridgens.com
 
 This is my old [[http://www.bridgens.me.uk/barry][site]]
 
-This is my [[http://barrybridgensphotography.co.uk][photography site]]
+This is my old [[http://barrybridgensphotography.co.uk][photography site]]

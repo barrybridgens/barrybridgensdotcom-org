@@ -57,6 +57,23 @@
          :publishing-directory  "./public/images"
          :publishing-function org-publish-attachment)
 
+	("photos"
+	 :base-directory "./content/photos/"
+	 :base-extension "org"
+	 :with-toc nil
+	 :section-numbers nil
+	 :time-stamp-file nil
+	 :publishing-directory "./public/photos"
+	 :html-postamble "<hr/><footer>Author: Barry Bridgens<br><nav> <a href=\"/\">&lt; Home</a></nav><div id=\"updated\">Updated: %C</div><hr></footer>"
+	 :publishing-function org-html-publish-to-html
+
+	 :auto-sitemap t
+	 :sitemap-title "Photo Galleries"
+	 :sitemap-filename "index.org"
+	 :sitemap-format-entry my/org-publish-org-sitemap-format
+	 :sitemap-sort-files anti-chronologically)
+
+	
 	("blog"
 	 :base-directory "./content/blog/"
 	 :base-extension "org"
