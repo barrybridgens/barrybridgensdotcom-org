@@ -11,7 +11,7 @@ This site will initially be used for general posts and provide links to my other
 Over time all of my content will be migrated to barrybridgens.com
 
 
-* Photography
+* Photo Galleries
 #+INCLUDE: photos/index.org :lines "3-8"
 [[file:photos/index.org][See more...]]
 

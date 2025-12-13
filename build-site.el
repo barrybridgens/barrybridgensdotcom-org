@@ -73,6 +73,13 @@
 	 :sitemap-format-entry my/org-publish-org-sitemap-format
 	 :sitemap-sort-files anti-chronologically)
 
+	("photo-images"
+         :base-directory "./content/photos/images"
+         :base-extension "jpg\\|gif\\|png"
+         :recursive nil
+         :publishing-directory  "./public/photos/images"
+         :publishing-function org-publish-attachment)
+
 	
 	("blog"
 	 :base-directory "./content/blog/"

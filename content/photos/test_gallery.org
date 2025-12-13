@@ -1,9 +1,0 @@
-#+TITLE: Test Gallary
-
-Some test photos
-
-[[../blog/images/ttartisan-window.jpg]]
-
-[[../blog/images/ttartisan-scooter.jpg]]
-
-[[../blog/images/ttartisan-resturant.jpg]]
